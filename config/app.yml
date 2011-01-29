@@ -1,0 +1,9 @@
+all:
+  theme:
+    themes:
+      veryplaintxt:
+        description:   Wordpress Veryplaintxt
+        layout:        veryplaintxt
+        templates_dir: themeVeryplaintxtPlugin/templates/
+        stylesheets:  [../themeVeryplaintxtPlugin/style.css, ../themeVeryplaintxtPlugin/print.css: { media : print }]
+        javascripts:  []
