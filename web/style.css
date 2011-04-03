@@ -9,7 +9,7 @@ TAGS: variable width, fixed width, two columns, widgets, theme options, options 
 */
 a,a:link{color:#000;outline:none;text-decoration:none;}
 div.entry-content a,div.entry-content a:link,body.single div.entry-meta a,div.single div.entry-meta a:link,div.comments ol.commentlist a,div.comments ol.commentlist a:link{color:#003;text-decoration:underline;}
-a:visited,div.entry-content a:visited,body.single div.entry-meta a:visited,div.comments ol.commentlist a:visited{color:#555;}
+a:visited,div.entry-content a:visited,body.single div.entry-meta a:visited,div.comments ol.commentlist a:visited{}
 a:hover,div.entry-content a:hover,body.single div.entry-meta a:hover,div.comments ol.commentlist a:hover{color:#00f;}
 a:active,div.entry-content a:active,body.single div.entry-meta a:active,div.comments ol.commentlist a:active{color:#aaa;}
 body{background:#fff;color:#000;line-height:133%;margin:0 1em;padding:0;}
@@ -86,8 +86,8 @@ body.single div.entry-meta,body.attachment div.entry-meta{clear:both;}
 div.entry-date abbr.published{border:none;display:block;margin:0.3em 0 -0.5em;}
 div#content div.navigation{letter-spacing:1px;margin:1em auto;}
 div#content div.navigation div{display:inline;font-weight:700;}
-div#content div.navigation div.nav-previous{float:left;}
-div#content div.navigation div.nav-next{float:right;}
+div#content div.navigation div.nav-previous{float:left; text-align: left;}
+div#content div.navigation div.nav-next{float:right;text-align: right;}
 form#searchform input#searchsubmit,body.page div.contactform div.contactright input#contactsubmit,div.formcontainer form#commentform div.form-submit input#submit{background:#ddd;border:1px solid #000;font:1em/normal "times new roman",times,serif;}
 div.sidebar ul li input#searchsubmit{background:#ddd;border:1px solid #000;font:0.9em/normal "times new roman",times,serif;}
 body.page div.contactform div.contactright input#contactsubmit{margin:0 0 0 10em;}
