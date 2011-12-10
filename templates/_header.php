@@ -34,4 +34,4 @@ body div.sidebar{text-align:center;}
 
   <div class="access"><span class="content-access"><a href="#content" title="<?php echo __('Skip to content', '', 'veryplaintxt'); ?>"><?php echo __('Skip to content', '', 'veryplaintxt'); ?></a></span></div>
 
-  <?php include_theme_partial('nav') ?>
+  <?php include_partial('sfSimpleBlog/mainNavigation') ?>

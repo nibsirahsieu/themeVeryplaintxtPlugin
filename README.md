@@ -1,0 +1,1 @@
+Symfony theme for [sfSimpleBlog15Plugin](https://github.com/nibsirahsieu/sfSimpleBlog15Plugin) plugin based on sfThemePlugin
